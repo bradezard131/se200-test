@@ -15,6 +15,7 @@ public abstract class Driver {
 	private Driver d;
 	
 	public Move(Driver d, double dist) {
+	    this.d = d;
 	    this.dist = dist;
 	}
 	
